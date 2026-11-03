@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>无穷大加十 · 从空集到连续统假设</title>
+<meta name="description" content="一本把数学地基从头走一遍的讲义：从 ZFC 公理、集合与造数，到基数/序数算术、阿列夫层级、选择公理与连续统假设，并接回数学专业本科课程。63 页，PDF 免费下载。">
+<style>
+  :root{--ink:#1b1f24;--sub:#5b6570;--line:#e3e6ea;--accent:#8e2f5f;--bg:#fbfbfc;}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font:16px/1.75 -apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;}
+  .wrap{max-width:760px;margin:0 auto;padding:40px 20px 64px;}
+  h1{font-size:34px;margin:0 0 6px;letter-spacing:1px;}
+  .sub{font-size:17px;color:var(--sub);margin:0 0 4px;}
+  .sub2{font-size:15px;color:var(--sub);margin:0 0 28px;}
+  .card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:20px 22px;margin:0 0 22px;}
+  .btns{display:flex;gap:12px;flex-wrap:wrap;margin:22px 0 8px;}
+  a.btn{display:inline-block;padding:12px 22px;border-radius:10px;text-decoration:none;
+        font-weight:600;font-size:16px;border:1px solid transparent;}
+  a.primary{background:var(--accent);color:#fff;}
+  a.ghost{background:#fff;color:var(--ink);border-color:var(--line);}
+  .meta{font-size:14px;color:var(--sub);margin-top:10px;}
+  ul{padding-left:1.2em;margin:8px 0 0;}
+  li{margin:4px 0;}
+  h2{font-size:18px;margin:26px 0 8px;}
+  .qr{display:flex;gap:16px;align-items:center;flex-wrap:wrap;}
+  .qr img{width:132px;height:132px;border:1px solid var(--line);border-radius:8px;background:#fff;}
+  .qr small{color:var(--sub);font-size:13px;line-height:1.5;}
+  iframe{width:100%;height:620px;border:1px solid var(--line);border-radius:12px;background:#fff;}
+  footer{margin-top:34px;font-size:13px;color:var(--sub);border-top:1px solid var(--line);padding-top:14px;}
+  code{background:#f2f3f5;padding:1px 5px;border-radius:4px;font-size:13px;}
+  @media(max-width:520px){h1{font-size:27px}iframe{height:480px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>无穷大加十</h1>
+  <p class="sub">从空集到连续统假设</p>
+  <p class="sub2">——把数学的地基完整走一遍</p>
+
+  <div class="card">
+    <p style="margin-top:0">
+      一个孩子问：“无穷大加十等于多少？”这个问题要用集合论才回答得干净——
+      而且答案取决于你说的“无穷大”是<b>基数</b>、<b>序数</b>，还是<b>超实数</b>。
+      这本 63 页的讲义，从 ZFC 的十条公理开始，一路造到连续统假设。
+    </p>
+    <ul>
+      <li><b>第一编</b>：逻辑与集合——为什么必须公理化，十条公理各自在干什么</li>
+      <li><b>第二编</b>：造数——从空集造出 ℕ、ℤ、ℚ、ℝ、ℂ，实数完备性的七张脸</li>
+      <li><b>第三编</b>：无穷的算术——等势、对角线、ℵ₀+10=ℵ₀、ω+10&gt;ω、阿列夫层级、选择公理、连续统假设、大基数</li>
+      <li><b>第四编</b>：与大学数学专业课程的关系——数分、线代、抽代、实变、复变、ODE 各自假设了什么</li>
+      <li><b>第五、六编</b>：补遗定理与全景回顾；附录含 ZFC 公理表、符号表、书单、年表、二十个常见误解</li>
+    </ul>
+
+    <div class="btns">
+      <a class="btn primary" href="无穷大加十.pdf" download>下载 PDF（63 页）</a>
+      <a class="btn ghost" href="无穷大加十.pdf" target="_blank" rel="noopener">在浏览器里读</a>
+    </div>
+    <p class="meta">PDF · A4 · 约 0.6 MB · 无密码 · 可自由传阅</p>
+  </div>
+
+  <h2>扫码分享</h2>
+  <div class="card qr">
+    <img src="qr.png" alt="本页二维码">
+    <small>手机扫码 → 直接打开这一页，点“下载 PDF”即可。<br>
+    想发给别人：把这一页的网址发过去，或直接发这张二维码。</small>
+  </div>
+
+  <h2>在线阅读</h2>
+  <iframe src="无穷大加十.pdf" title="《无穷大加十》PDF 预览"></iframe>
+  <p class="meta">手机若无法内嵌预览，点上面的“在浏览器里读”。</p>
+
+  <footer>
+    黎羽、DeepSeek 编著 · 2026 · 排版 XeLaTeX&nbsp;+&nbsp;ctex<br>
+    源码与勘误：<a href="https://github.com/Riyuu1103/infinity-plus-ten">github.com/Riyuu1103/infinity-plus-ten</a>
+  </footer>
+</div>
+</body>
+</html>
